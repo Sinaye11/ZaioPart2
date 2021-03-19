@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+}
+
+body {
+  width: 100%;
+  background-color: #f0f2f5;
+}
+
+form {
+  background-color: #f0f2f5;
+  position: absolute;
+  width: 320px;
+  height: 270px;
+  padding: 10px 5px 20px 5px;
+  margin: -10vh 850px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 6px -7px;
+}
+input[type="text"],
+input[type="password"] {
+  display: block;
+  background-color: #fff;
+  margin: auto;
+  border: 1.5px solid rgb(200, 200, 200);
+  width: 200px;
+  padding: 10px 40px;
+  border-radius: 5px;
+  text-align: left;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 15px;
+}
+
+button {
+  border: none;
+  background-color: #1877f2;
+  color: white;
+  margin: auto;
+  width: 283px;
+  display: block;
+  border-radius: 5px;
+  padding: 10px 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.f-p {
+  display: block;
+  width: 200px;
+  margin: auto;
+  color: #1877f2;
+  padding-left: 80px;
+  font-family: "Segoe UI";
+  font-weight: 400;
+}
+
+.line {
+  border-top: 1px solid #222;
+  opacity: 0.2;
+}
+
+.bnt2 {
+  width: 180px;
+  font-size: 14px;
+  background-color: #42b72a;
+  text-align: center;
+}
+
+.sub-link h3 {
+  width: 270px;
+  position: relative;
+  color: black;
+  font-family: "Segoe UI", Arial;
+  padding: 130px 890px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.sub-link h3 a {
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.f-container {
+  width: 350px;
+  margin-left: 300px;
+  margin-top: 30vh;
+  font-family: "Segoe UI", Roboto, "San Fransisco";
+}
+
+.f-container img {
+  width: 250px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 600;
+  word-spacing: 3px;
+}
+
+/*Footer area design*/
+.fb-footer {
+  margin: 30px 0;
+  font-family: "Segoe UI";
+  background-color: #fff;
+  text-align: left;
+}
+.fb-footer ul {
+  margin: 0;
+  padding: 0;
+}
+.fb-footer ul li {
+  list-style: none;
+  display: inline;
+}
+
+.fb-footer hr {
+  border: 0;
+  border-top: 1px solid #e5e5e5;
+  margin: 10px 0;
+}
+.fb-footer ul li a {
+  text-decoration: none;
+  width: 6%;
+  display: inline;
+  line-height: 1.5;
+  font-size: 12px;
+  color: #365899;
+}
+.fb-footer ul li a:hover {
+  text-decoration: underline;
+}
+.top ul li:last-child a {
+  border: 1px solid #999;
+  width: 20px;
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  background: #e5e5e5;
+  line-height: 1;
+  height: 10px;
+}
+.fb-footer ul .active a {
+  color: #333;
+}
+.bottom h4 {
+  font-weight: normal;
+  color: #999;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .left {
+    margin-top: 0;
+  }
+
+  .left p {
+    width: 100%;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .bottom {
+    text-decoration: none;
+    color: #365899;
+    padding-bottom: 20px;
+  }
+
+  .fb-footer {
+    font-size: 10px;
+  }
+
+  .top ul li a {
+    color: #365899;
+  }
+  .middle ul li a {
+    color: #365899;
+  }
+  .bottom ul li a {
+    color: #365899;
+  }
+  .middle ul li {
+    margin-right: 0;
+    width: 14%;
+    float: left;
+    margin-bottom: 2px;
+  }
+}
+@media only screen and (min-width: 767px) {
+  .left {
+    margin-top: 0;
+  }
+
+  .left p {
+    width: 100%;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .bottom {
+    text-decoration: none;
+    color: #999;
+    padding-bottom: 20px;
+  }
+
+  .fb-footer {
+    font-size: 10px;
+  }
+
+  .top ul li a {
+    color: #999;
+  }
+  .middle ul li a {
+    color: #999;
+  }
+  .bottom ul li a {
+    color: #999;
+  }
+  .middle ul li {
+    margin-right: 0;
+    width: 14%;
+    float: left;
+    margin-bottom: 2px;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .left {
+    margin-top: 0;
+  }
+
+  .left p {
+    width: 100%;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .bottom {
+    text-decoration: none;
+    color: #999;
+    padding-bottom: 20px;
+  }
+
+  .fb-footer {
+    font-size: 10px;
+  }
+
+  .top ul li a {
+    color: #999;
+  }
+  .middle ul li a {
+    color: #999;
+  }
+  .bottom ul li a {
+    color: #999;
+  }
+  .middle ul li {
+    margin-right: 0;
+    width: 14%;
+    float: left;
+    margin-bottom: 2px;
+  }
+}

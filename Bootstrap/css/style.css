@@ -1,0 +1,83 @@
+body {
+  background-color: #edf0f5;
+}
+.left {
+  margin: 10%;
+  margin-top: 15%;
+}
+.right {
+  border: none;
+  border-radius: 0px;
+  padding: 20px;
+  margin-top: 25%;
+}
+
+.login {
+  width: 100%;
+  background-color: #1076f1;
+  color: white;
+}
+
+.create {
+  background-color: #42b742;
+  color: white;
+}
+
+h1 {
+  color: #1076f1;
+  font-size: 60px;
+}
+p {
+  padding: 10px;
+  font-size: 12px;
+}
+/*Footer area design*/
+.fb-footer {
+  margin: 30px 0;
+  font-family: "Segoe UI";
+  background-color: #fff;
+  text-align: left;
+}
+.fb-footer ul {
+  margin: 0;
+  padding: 0;
+}
+.fb-footer ul li {
+  list-style: none;
+  display: inline;
+}
+
+.fb-footer hr {
+  border: 0;
+  border-top: 1px solid #e5e5e5;
+  margin: 10px 0;
+}
+.fb-footer ul li a {
+  text-decoration: none;
+  width: 6%;
+  display: inline;
+  line-height: 1.5;
+  font-size: 12px;
+  color: #365899;
+}
+.fb-footer ul li a:hover {
+  text-decoration: underline;
+}
+.top ul li:last-child a {
+  border: 1px solid #999;
+  width: 20px;
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  background: #e5e5e5;
+  line-height: 1;
+  height: 10px;
+}
+.fb-footer ul .active a {
+  color: #333;
+}
+.bottom h4 {
+  font-weight: normal;
+  color: #999;
+  font-size: 14px;
+}
