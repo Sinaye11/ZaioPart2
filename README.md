@@ -3,6 +3,12 @@ Media Query:
 
 https://mediaqueryfacebook.netlify.app/
 
+Modified Media Query:
+
+https://upbeat-joliot-e200fd.netlify.app/
+
+
+
 Bootstrap: 
 
 https://bootstrapfacebook.netlify.app/
